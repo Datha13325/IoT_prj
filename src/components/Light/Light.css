@@ -1,0 +1,29 @@
+/* Container */
+.light-controller-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex: 1;
+    border: 1px solid #ccc; /* Border cho div chứa nó */
+    border-radius: 10px; /* Bo tròn góc */
+    padding: 30px; 
+    margin-top: 15px;
+}
+
+/* Controller Title */
+.controller-title {
+    color: #000; /* Màu chữ đen */
+    text-align: center; /* Căn giữa theo chiều ngang */
+    font-weight: 500; /* Độ đậm của chữ */
+    font-size: 26px; /* Cỡ chữ */
+}
+
+/* Controller Content */
+.controller-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}

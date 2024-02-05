@@ -1,0 +1,25 @@
+/* Container */
+.lux-sun-container {
+    width: 100%; /* Chiều rộng 1/3 */
+    height: 100%; /* Chiều cao 100% */
+    display: flex; /* Hiển thị dạng flex */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    gap: 40px; /* Khoảng cách giữa các phần tử */
+    background: linear-gradient(to bottom, #f9e889, #927d08); /* Gradient màu vàng */
+    border-radius: 10px;
+}
+
+/* Text Content */
+.lux-sun-text {
+    color: #000; /* Màu chữ đen */
+    text-align: center; /* Căn giữa theo chiều ngang */
+    font-weight: 500; /* Độ đậm của chữ */
+    font-size: 26px; /* Cỡ chữ */
+}
+
+/* Icon Container */
+.icon-container {
+    margin-right: -120px;
+
+}

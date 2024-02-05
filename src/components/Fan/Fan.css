@@ -1,0 +1,40 @@
+/* Container Wrapper */
+.container-wrapper {
+    border: 1px solid #ccc; /* Border cho div chứa nó */
+    border-radius: 10px; /* Bo tròn góc */
+    padding: 20px; /* Khoảng cách nội dung và border */
+    /* margin-bottom: 40px; */
+}
+
+/* Fan Controller Container */
+.fan-controller-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex: 1;
+    padding: 20px; /* Khoảng cách giữa nội dung và border */
+    border-radius: 10px; /* Bo tròn góc */
+}
+
+/* Controller Title */
+.controller-title {
+    color: #000000; /* Màu chữ đen */
+    text-align: center; /* Căn giữa theo chiều ngang */
+    font-weight: 500; /* Độ đậm của chữ */
+    font-size: 26px; /* Cỡ chữ */
+}
+
+/* Controller Content */
+.controller-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Fan Icon */
+.fan-icon {
+    /* Thêm bất kỳ kiểu CSS nào cho fan icon nếu cần */
+}

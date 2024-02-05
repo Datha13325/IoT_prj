@@ -1,0 +1,44 @@
+/* Container */
+.container {
+    padding: 10px;
+}
+
+/* Upper Section */
+.upper-section {
+    height: 30vh;
+    display: flex;
+    justify-content: space-around; /* Canh đều các khối theo chiều ngang */
+    align-items: center; /* Canh giữa các khối theo chiều dọc */
+}
+
+/* Sensor Container */
+.sensor-container {
+    flex: 1; /* Chia đều không gian giữa các khối */
+    border-radius: 20px; /* Bo tròn góc */
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75); /* Đổ bóng */
+    padding: 10px; /* Khoảng cách nội dung với viền */
+    margin: 0 5px; /* Khoảng cách giữa các khối */
+}
+
+/* Chart and Control Container */
+.chart-control-container {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Chart Content */
+.chart-content {
+    flex: 1; /* Sử dụng hết không gian còn lại của container */
+}
+
+/* Side Content */
+.side-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto; /* Sử dụng hết không gian còn lại của container */
+    margin-right: -50px;
+}

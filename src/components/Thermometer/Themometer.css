@@ -1,0 +1,47 @@
+/* Thermometer Container */
+/* styles.css */
+.thermometer-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-right-width: 1px;
+    border-right-color: #a7a7a7;
+
+    /* Background Gradient */
+    background: linear-gradient(45deg, #faa36c, #f04313);
+
+    /* Box Shadow */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+
+/* Thermometer Value Container */
+.thermometer-value-container {
+    height: 100%;
+    padding-top: 20px;
+    margin-right: -120px;
+
+}
+
+/* Thermometer Value */
+.thermometer-value {
+    color: #000; /* Black text color */
+    text-align: center;
+    font-weight: 500;
+    font-size: 26px;
+}
+.thermometer-container.color-under-15 {
+    background: linear-gradient(135deg, #36a1ac, #018ea4); /* Gradient màu xanh lá cây */
+}
+
+.thermometer-container.color-15-to-30 {
+    background: linear-gradient(135deg, #faec58, #fff200); /* Gradient màu vàng */
+}
+
+.thermometer-container.color-over-30 {
+    background: linear-gradient(135deg, #cd8355, #ff5900d1); /* Gradient màu đỏ */
+}

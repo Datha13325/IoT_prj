@@ -1,0 +1,40 @@
+/* Container */
+.hygrometer-container {
+    width:100%; /* Chiều rộng 1/3 */
+    height: 100%; /* Chiều cao 100% */
+    display: flex; /* Hiển thị dạng flex */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    gap: 40px; /* Khoảng cách giữa các phần tử */
+    border-right-width: 1px; /* Độ dày viền bên phải */
+    border-right-color: #a7a7a7; /* Màu viền bên phải */
+    border-radius: 10px;
+}
+
+/* Text Content */
+.hygrometer-text {
+    color: #fff; /* Màu chữ trắng */
+    text-align: center; /* Căn giữa theo chiều ngang */
+    font-weight: 500; /* Độ đậm của chữ */
+    font-size: 26px; /* Cỡ chữ */
+}
+
+/* Measuring Tool Container */
+.measuring-tool-container {
+    height: 100%; /* Chiều cao 100% */
+    padding-top: 0px; /* Khoảng cách từ trên xuống cho MeasuringTool */
+    margin-right: -120px;
+}
+
+/* Background Colors */
+.hygrometer-container.color-under-60 {
+    background: linear-gradient(135deg, #36a1ac, #018ea4); /* Gradient màu xanh lá cây */
+}
+
+.hygrometer-container.color-60-to-80 {
+    background: linear-gradient(135deg, #58c4fa, #0080ff); /* Gradient màu vàng */
+}
+
+.hygrometer-container.color-over-80 {
+    background: linear-gradient(135deg, #1a3caa, #005effd1); /* Gradient màu đỏ */
+}
